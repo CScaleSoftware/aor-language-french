@@ -31,6 +31,10 @@ module.exports = {
                 upload_several: 'Adăugați fișierele pe care să le încărcați sau faceți clic pentru a le selecta.',
                 upload_single: 'Adăugați fișierul pe care să îl încărcați sau faceți clic pentru a selecta unul.',
             },
+            embedded_array: {
+              add: 'Adaugă',
+              remove: 'Șterge'
+            },
         },
         message: {
             yes: 'Da',
