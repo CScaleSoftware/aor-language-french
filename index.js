@@ -27,13 +27,25 @@ module.exports = {
             not_found: 'Pagina nu există'
         },
         input: {
+            autocomplete: {
+              none: 'Nicio variantă',
+            },
+            file: {
+              upload_several:'Adăugați fișierele pe care să le încărcați sau faceți clic pentru a le selecta.',
+              upload_single: 'Adăugați fișierul pe care să îl încărcați sau faceți clic pentru a selecta unul.',
+            },
             image: {
-                upload_several: 'Adăugați fișierele pe care să le încărcați sau faceți clic pentru a le selecta.',
-                upload_single: 'Adăugați fișierul pe care să îl încărcați sau faceți clic pentru a selecta unul.',
+                upload_several: 'Adăugați imaginile pe care să le încărcați sau faceți clic pentru a le selecta.',
+                upload_single: 'Adăugați imaginea pe care să îl încărcați sau faceți clic pentru a selecta unul.',
             },
             embedded_array: {
-              add: 'Adaugă',
-              remove: 'Șterge'
+                add: 'Adaugă',
+                remove: 'Șterge'
+            },
+            references: {
+                all_missing: 'Nu au fost găsite referinţe',
+                many_missing: 'Cel puţin una dintre referinţele asociate nu mai este disponibilă.',
+                single_missing: 'Referinţa asociată nu mai este disponibilă',
             },
         },
         message: {
@@ -45,6 +57,7 @@ module.exports = {
         },
         navigation: {
             no_results: 'Niciun rezultat',
+            no_more_results: 'Pagina %{page} nu există. încercați pagina precedentă.',
             page_out_of_boundaries: 'Pagina %{page} este în afara limitelor',
             page_out_from_end: 'Sfârșitul paginării',
             page_out_from_begin: 'Pagina trebuie să fie mai mare decât 1',
@@ -65,6 +78,7 @@ module.exports = {
             deleted: 'Elementul a fost șters',
             item_doesnt_exist: 'Elementul nu există',
             http_error: 'Eroare de comunicare cu serverul',
+            bad_item: 'Element incorect',
         },
         validation: {
             required: 'Câmpul este necesar',
