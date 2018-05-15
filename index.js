@@ -5,7 +5,7 @@ module.exports = {
             show: 'Afișează',
             list: 'Listă',
             save: 'Salvează',
-            create: 'Crează',
+            create: 'Creează',
             edit: 'Editează',
             cancel: 'Anulează',
             refresh: 'Actualizează',
@@ -21,7 +21,7 @@ module.exports = {
             list: 'Lista de %{name}',
             edit: '%{name} #%{id}',
             show: '%{name} #%{id}',
-            create: 'Crează %{name}',
+            create: 'Creează %{name}',
             delete: 'Șterge %{name} #%{id}',
             dashboard: 'Pagina principala',
             not_found: 'Pagina nu există'
